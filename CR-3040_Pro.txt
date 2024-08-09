@@ -1,5 +1,5 @@
 On the latest firmware from Creality 2022-08 the Marlin "HOST_ACTION_COMMAND" are not enabled.. 
-This means that you can only print from SD-card reliably .. when connecting a PC or something else like "Octoprint" or "Creality Box" a pause comand are not sent to the host if for example the filamnet runs out.
+This means that you can only print from SD-card reliably .. when connecting a PC or something else like "Octoprint" or "Creality Box" a pause command are not sent to the host, if for example the filamnet runs out.
 Also when printing from USB the tuchscreen does not know
 
 The Hotend termistor is connected on an extension board and then connected to the motherboard via the A12 SGV connector..
@@ -9,7 +9,7 @@ there is a resister about 770 ohms by the THB, TH1 & TH2 connectors
 The Extemsion board is marked "HQPCB-2 E469747" and have the following ports
 FAN, FAN-1, FAN-K, FAN-K1, HEATER, HEATER1 and two unmarked one 3-pin and one where the termistor is connected
 
-The Bed is connected via an Relay card
+The Bed is connected via an Relay card or external mosfet board
 
 The LED-light is connected to HEATER2 port
 
