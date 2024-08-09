@@ -1,3 +1,5 @@
+Some of this data comes from Klipper Example printer.cfg file for CR-5 Pro HT
+
 [stepper_x]
 step_pin: PF0 #ar54
 dir_pin: !PF1 #ar55
