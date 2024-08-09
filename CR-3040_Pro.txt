@@ -13,4 +13,10 @@ The Bed is connected via an Relay card
 
 The LED-light is connected to HEATER2 port
 
-The case fans are connected to K-FAN-1 (i belive it is parallel connected with the part-cooling fan connected to K-FAN
+The case exhaust fans are connected to K-FAN-1 (i belive it is parallel connected with the part-cooling fan connected to K-FAN1
+
+in the manual it states a case fan is connected to FAN2 connector but this is the Filament Extruder motor cooling fan
+
+FAN1 is connected to a fan blowing over the motherboard
+
+Motherboard can be flashed via USB using the Creality Slicer software, or via klipper (kiauh)
