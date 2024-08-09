@@ -1,0 +1,16 @@
+On the latest firmware from Creality 2022-08 the Marlin "HOST_ACTION_COMMAND" are not enabled.. 
+This means that you can only print from SD-card reliably .. when connecting a PC or something else like "Octoprint" or "Creality Box" a pause comand are not sent to the host if for example the filamnet runs out.
+Also when printing from USB the tuchscreen does not know
+
+The Hotend termistor is connected on an extension board and then connected to the motherboard via the A12 SGV connector..
+the manual mentions that that as a "PT-100 Line" i dont now the exact type of thermistor but a PT-100 should give 100Ohms at 0℃ i messured about 108 Ohms at about 22℃
+there is a resister about 770 ohms by the THB, TH1 & TH2 connectors 
+
+The Extemsion board is marked "HQPCB-2 E469747" and have the following ports
+FAN, FAN-1, FAN-K, FAN-K1, HEATER, HEATER1 and two unmarked one 3-pin and one where the termistor is connected
+
+The Bed is connected via an Relay card
+
+The LED-light is connected to HEATER2 port
+
+The case fans are connected to K-FAN-1 (i belive it is parallel connected with the part-cooling fan connected to K-FAN
