@@ -1,0 +1,115 @@
+[stepper_x]
+step_pin: PF0 #ar54
+dir_pin: !PF1 #ar55
+enable_pin: !PD7 #!ar38
+
+[stepper_y]
+step_pin: PF6 #ar60
+dir_pin: !PF7 #ar61
+enable_pin: !PF2 #!ar56
+
+[stepper_z]
+step_pin: PL3 #ar46
+dir_pin: !PL1 #!ar48
+enable_pin: !PK0 #!ar62
+
+[extruder]
+step_pin: PA4 # ar26
+dir_pin: !PA6 # !ar28
+enable_pin: !PA2 # !ar24
+
+[extruder2]
+step_pin:	PC1
+dir_pin:	!PC3
+enable_pin: !PC7
+
+[bltouch]
+sensor_pin: ^PD2 #^ar19 D11
+control_pin: PB5 #ar11
+
+
+
+BED	PH5
+HEATER1	PB4
+HEATER2	PH4
+K-FAN1	PH6
+K-FAN2	PH6
+FAN1
+FAN2
+FAN3
+5V_1
+5V_2
+
+LASER1
+LASER2
+
+J1-G
+J1-2	RESET
+J1-3	PB2 MOSI
+J1-4	PB1 SCK
+J1-5
+J1-6
+
+TH2	PK7
+TH1	PK5
+THB	PK6
+
+A12 SGV PK4 (extender card)
+A11 SGV PK3
+D12 SGV PB6
+D11 SGV PB5 (Bltouch)
+
+X- SGV
+Y- SGV	PJ1
+Z- SGV	PD1
+X+ SGV	PE4
+Y+ SGV	PJ0
+Z+ SGV	PD2
+
+AUX_1
+AUX_2
+AUX_3
+AUX_4
+AUX_5 GND
+AUX_6 GND
+AUX_7
+AUX_8
+
+EXP2_1
+EXP2_2
+EXP2_3
+EXP2_4
+EXP2_5
+EXP2_6
+EXP2_7
+EXP2_8
+EXP2_9 GND
+EXP2_10
+
+EXP1_1
+EXP1_2
+EXP1_3
+EXP1_4
+EXP1_5
+EXP1_6
+EXP1_7
+EXP1_8
+EXP1_9 GND
+EXP1_10
+
+P1_1 GND
+P1_2
+P1_3 RX
+P1_4 TX
+P1_5
+P1_6 V+
+
+
+
+
+
+
+
+
+
+
