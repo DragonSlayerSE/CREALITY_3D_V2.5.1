@@ -1,4 +1,7 @@
 Some of this data comes from Klipper Example printer.cfg file for CR-5 Pro HT
+the stepper without ccoling fins are TMC2208-LA
+other ic's 74HC4050D, CH340G, Mp1584en
+ther should be an eeprom but i guess is inside the processor
 
 [stepper_x]
 step_pin: PF0 #ar54
@@ -45,12 +48,12 @@ FAN3
 LASER1 PH6
 LASER2 PH6
 
-J1-G
+J1-G  GND
 J1-2	RESET
 J1-3	PB2 MOSI
 J1-4	PB1 SCK
-J1-5
-J1-6
+J1-5  5V
+J1-6  NC
 
 TH2	PK7
 TH1	PK5
@@ -74,7 +77,7 @@ Z+ SGV	PD2
    *  PE0  | 1  2 | PF4
    *  PE1  | 3  4   PF3
    *  GND  | 5  6   GND
-   *  NC   | 7  8 | NC
+   *  5V   | 7  8 | 5V
    *        ------
    */
 AUX_1 PE0 via 100ohm
@@ -83,20 +86,40 @@ AUX_3 PE1 via 100ohm
 AUX_4 PF3 via 100ohm
 AUX_5 GND
 AUX_6 GND
-AUX_7 NC
-AUX_8 NC
-
+AUX_7 5V
+AUX_8 5V
+  /**
+   *         EXP2
+   *        ------
+   *   | 1  2 | 
+   *   PC6 | 3  4 | 
+   *   PC4 | 5  6   PB2 MOSI
+   *   PL0 | 7  8 | RESET
+   *   GND | 9 10 | 5V
+   *        ------
+   */
 EXP2_1
 EXP2_2
-EXP2_3
+EXP2_3 PC6
 EXP2_4
-EXP2_5
-EXP2_6
-EXP2_7
-EXP2_8
+EXP2_5 PC4
+EXP2_6 PB2 MOSI
+EXP2_7 PL0
+EXP2_8 RESET
 EXP2_9 GND
-EXP2_10
+EXP2_10 PG0
 
+
+  /**
+   *         EXP1
+   *        ------
+   *     | 1  2 | 
+   *    | 3  4 | 
+   *    | 5  6  
+   *    | 7  8 | 
+   *  GND  | 9 10 | 
+   *        ------
+   */
 EXP1_1
 EXP1_2
 EXP1_3
@@ -108,6 +131,7 @@ EXP1_8
 EXP1_9 GND
 EXP1_10
 
+the Display Connector on CR-3040 Pro
 P1_1 GND
 P1_2
 P1_3 12 PH0 (RXD2) 
