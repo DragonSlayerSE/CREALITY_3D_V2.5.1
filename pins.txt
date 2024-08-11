@@ -91,17 +91,17 @@ AUX_8 5V
   /**
    *         EXP2
    *        ------
-   *   | 1  2 | 
-   *   PC6 | 3  4 | 
+   *   NC  | 1  2 | PB1 SCK
+   *   PC6 | 3  4 | NC
    *   PC4 | 5  6   PB2 MOSI
    *   PL0 | 7  8 | RESET
    *   GND | 9 10 | 5V
    *        ------
    */
-EXP2_1
-EXP2_2
+EXP2_1 NC
+EXP2_2 PB1 SCK
 EXP2_3 PC6
-EXP2_4
+EXP2_4 NC
 EXP2_5 PC4
 EXP2_6 PB2 MOSI
 EXP2_7 PL0
@@ -113,30 +113,30 @@ EXP2_10 PG0
   /**
    *         EXP1
    *        ------
-   *     | 1  2 | 
-   *    | 3  4 | 
+   *  PC0  | 1  2 | 
+   *  PH0  | 3  4 | 
    *    | 5  6  
    *    | 7  8 | 
-   *  GND  | 9 10 | 
+   *  GND  | 9 10 | 5V
    *        ------
    */
-EXP1_1
+EXP1_1 PC0
 EXP1_2
-EXP1_3
+EXP1_3 PH0 RXD2
 EXP1_4
 EXP1_5
 EXP1_6
 EXP1_7
 EXP1_8
 EXP1_9 GND
-EXP1_10
+EXP1_10 5V
 
 the Display Connector on CR-3040 Pro
 P1_1 GND
-P1_2
+P1_2 NC
 P1_3 12 PH0 (RXD2) 
 P1_4 13 PH1 (TXD2)
-P1_5
+P1_5 NC
 P1_6 5V+
 
 
