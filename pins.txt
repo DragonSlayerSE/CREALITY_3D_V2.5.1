@@ -42,8 +42,8 @@ FAN3
 5V_1
 5V_2
 
-LASER1
-LASER2
+LASER1 PH6
+LASER2 PH6
 
 J1-G
 J1-2	RESET
@@ -68,14 +68,23 @@ X+ SGV	PE4
 Y+ SGV	PJ0
 Z+ SGV	PD2
 
-AUX_1
-AUX_2
-AUX_3
-AUX_4
+  /**
+   *         AUX
+   *        ------
+   *  PE0  | 1  2 | PF4
+   *  PE1  | 3  4   PF3
+   *  GND  | 5  6   GND
+   *  NC   | 7  8 | NC
+   *        ------
+   */
+AUX_1 PE0 via 100ohm
+AUX_2 PF4 via 100ohm
+AUX_3 PE1 via 100ohm
+AUX_4 PF3 via 100ohm
 AUX_5 GND
 AUX_6 GND
-AUX_7
-AUX_8
+AUX_7 NC
+AUX_8 NC
 
 EXP2_1
 EXP2_2
