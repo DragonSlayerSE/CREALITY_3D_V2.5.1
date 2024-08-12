@@ -21,3 +21,13 @@ in the manual it states a case fan is connected to FAN2 connector but this is th
 FAN1 is connected to a fan blowing over the motherboard
 
 Motherboard can be flashed via USB using the Creality Slicer software, or via klipper (kiauh)
+
+dmt48270c043_06wt Touchscreen: 4.3" color
+it has a Kioxia TC58BVG0S3HTAI0
+SLC NAND Flash 3.3V 1G-bit 48-Pin TSOP 
+
+a proceessor T5 dwin.com.cn n43v29.00hg08
+
+and the microsdcard slot for firmware updates
+and it also have a connector for a speeaker
+
