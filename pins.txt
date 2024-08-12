@@ -57,7 +57,7 @@ J1-2	RESET
 J1-3	PB2 MOSI
 J1-4	PB1 SCK
 J1-5  5V
-J1-6  NC
+J1-6  PB3 MISO
 
 TH2	PK7
 TH1	PK5
@@ -118,20 +118,20 @@ EXP2_10 PG0
    *         EXP1
    *        ------
    *  PC0  | 1  2 | PC2
-   *  PH0  | 3  4 | 
-   *  PA1  | 5  6  
-   *  PA5  | 7  8 | 
+   *  PH0  | 3  4 | PH1
+   *  PA1  | 5  6   PA3
+   *  PA5  | 7  8 | PA7
    *  GND  | 9 10 | 5V
    *        ------
    */
 EXP1_1 PC0
 EXP1_2 PC2
 EXP1_3 PH0 RXD2
-EXP1_4
+EXP1_4 PH1 TXD2
 EXP1_5 PA1
-EXP1_6
+EXP1_6 PA3
 EXP1_7 PA5
-EXP1_8
+EXP1_8 PA7
 EXP1_9 GND
 EXP1_10 5V
 
@@ -144,8 +144,24 @@ P1_5 NC
 P1_6 5V+
 
 
+/**
+   *         SD_1
+   *        ------
+   *   PB0 | 1  2 | MOSI
+   *   GND | 3  4   VDD
+   *   SCK | 5  6   GND 
+   *  MISO | 7  8 | PA5
+   *        ------
+   */
 
-
+SD_1_1 PB0 via 74hc4050d 3A/3Y
+SD_1_2 PB2 MOSI via 74hc4050d 
+SD_1_3 GND
+SD_1_4 VDD
+SD_1_5 PB1 SCK via 74hc4050c
+SD_1_6 GND
+SD_1_7 PB3 MISO
+SD_1_8 PA5
 
 
 
