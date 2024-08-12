@@ -1,7 +1,11 @@
 Some of this data comes from Klipper Example printer.cfg file for CR-5 Pro HT
 the stepper without ccoling fins are TMC2208-LA
 other ic's 74HC4050D, CH340G, Mp1584en
-ther should be an eeprom but i guess is inside the processor
+there should be an eeprom but i guess is inside the processor
+when connecting with klipper i get this in the log:
+MCU 'mcu' config: ADC_MAX=1023 BUS_PINS_spi=PB3,PB2,PB1 BUS_PINS_twi=PD0,PD1 CLOCK_FREQ=16000000 MCU=atmega2560 PWM_MAX=255 RECEIVE_WINDOW=192 RESERVE_PINS_serial=PE0,PE1 SERIAL_BAUD=250000 STATS_SUMSQ_BASE=256
+
+
 
 [stepper_x]
 step_pin: PF0 #ar54
