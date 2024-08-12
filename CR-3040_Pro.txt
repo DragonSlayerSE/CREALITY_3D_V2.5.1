@@ -10,6 +10,12 @@ The Extemsion board is marked "HQPCB-2 E469747" and have the following ports
 FAN, FAN-1, FAN-K, FAN-K1, HEATER, HEATER1 and two unmarked one 3-pin and one where the termistor is connected
 
 The Bed is connected via an Relay card or external mosfet board
+Creality 3D Hotbed Control Module
+Artikel nr. 29056
+Variations-ID 10979
+EAN 4004010117
+Tillverkarens ArtNr 4004010117
+
 
 The LED-light is connected to HEATER2 port
 
