@@ -8,6 +8,8 @@ there is a resister about 770 ohms by the THB, TH1 & TH2 connectors
 
 The Extemsion board is marked "HQPCB-2 E469747" and have the following ports
 FAN, FAN-1, FAN-K, FAN-K1, HEATER, HEATER1 and two unmarked one 3-pin and one where the termistor is connected
+it is actually an INA826 circuit board.. and only connects the PT100 sensor.
+the other ports are only connected to them self.. for example: FAN & FAN-1 is only connected to eachother
 
 The Bed is connected via an Relay card or external mosfet board
 Creality 3D Hotbed Control Module
@@ -33,6 +35,8 @@ it has a Kioxia TC58BVG0S3HTAI0
 SLC NAND Flash 3.3V 1G-bit 48-Pin TSOP 
 
 a proceessor T5 dwin.com.cn n43v29.00hg08
+
+
 
 and the microsdcard slot for firmware updates
 and it also have a connector for a speeaker
