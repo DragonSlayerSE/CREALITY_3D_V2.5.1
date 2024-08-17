@@ -173,4 +173,6 @@ USART1 PD2(RXD1) PD3(TXD1) (Z+
 USART2 PH0(RXD2) PH1(TXD2) (EXP1)
 USART3 PJ0(RXD3) PJ1(TXD3) (Y- / Y+)
 
+PB7 seams to be connected to manipulate RESET
+
 
