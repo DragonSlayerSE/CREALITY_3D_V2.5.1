@@ -170,7 +170,7 @@ there is an TX on pin 8 & RX on pin10 but i did not not get i to work that way..
 
 USART0 PE0(RXD0) PE1(TXD0) (USB)/(AUX)
 USART1 PD2(RXD1) PD3(TXD1) (Z+ 
-USART2 PH0(RXD2) PH1(TXD2) (EXP1)
+USART2 PH0(RXD2) PH1(TXD2) (EXP1)(Display P)
 USART3 PJ0(RXD3) PJ1(TXD3) (Y- / Y+)
 
 PB7 seams to be connected to manipulate RESET
