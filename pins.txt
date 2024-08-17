@@ -165,8 +165,8 @@ SD_1_8 PA5
 
 
 
-The 5V connectors can power a Raspberry Pi 3 Model B Rev 1.2 via GPIO pins 4 & 6
-there is an TX on pin 8 & RX on pin10
+The 5V connectors can power a Raspberry Pi 3 Model B Rev 1.2 via GPIO pins 4 & 6 but only if you disconnect de original display that uses 1A
+there is an TX on pin 8 & RX on pin10 but i did not not get i to work that way..
 
 USART0 PE0(RXD0) PE1(TXD0) (USB)/(AUX)
 USART1 PD2(RXD1) PD3(TXD1) (Z+ 
