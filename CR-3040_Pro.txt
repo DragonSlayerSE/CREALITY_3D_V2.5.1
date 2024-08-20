@@ -30,7 +30,7 @@ FAN1 is connected to a fan blowing over the motherboard
 
 Motherboard can be flashed via USB using the Creality Slicer software, or via klipper (kiauh)
 
-dmt48270c043_06wt Touchscreen: 4.3" color
+dmt48270c043_06wt Touchscreen: 4.3" color Landscape 480*272
 it has a Kioxia TC58BVG0S3HTAI0
 SLC NAND Flash 3.3V 1G-bit 48-Pin TSOP 
 
