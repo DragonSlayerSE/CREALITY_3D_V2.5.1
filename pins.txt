@@ -1,5 +1,5 @@
 Some of this data comes from Klipper Example printer.cfg file for CR-5 Pro HT
-the stepper without cooling fins are TMC2208-LA
+the stepper without cooling fins are TMC2208-LA it has MS1 & MS2 wirered together and i think to vcc 16 microsteps (if gnd 8 microsoteps) 
 other ic's 74HC4050D, CH340G, Mp1584en, 7812 PRAJ
 there should be an eeprom but i guess is inside the processor (or maybe it's on the dwin screen)
 when connecting with klipper i get this in the log:
